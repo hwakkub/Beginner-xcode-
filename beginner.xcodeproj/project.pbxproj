@@ -14,6 +14,7 @@
 		38D1B2BF2B39635E00E82EB8 /* beginnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1B2BE2B39635E00E82EB8 /* beginnerTests.swift */; };
 		38D1B2C92B39635E00E82EB8 /* beginnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1B2C82B39635E00E82EB8 /* beginnerUITests.swift */; };
 		38D1B2CB2B39635E00E82EB8 /* beginnerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1B2CA2B39635E00E82EB8 /* beginnerUITestsLaunchTests.swift */; };
+		38D1B2D92B39752C00E82EB8 /* Doc in Resources */ = {isa = PBXBuildFile; fileRef = 38D1B2D82B39752C00E82EB8 /* Doc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		38D1B2C42B39635E00E82EB8 /* beginnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beginnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D1B2C82B39635E00E82EB8 /* beginnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beginnerUITests.swift; sourceTree = "<group>"; };
 		38D1B2CA2B39635E00E82EB8 /* beginnerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beginnerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38D1B2D82B39752C00E82EB8 /* Doc */ = {isa = PBXFileReference; lastKnownFileType = text; path = Doc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		38D1B2A12B39635C00E82EB8 = {
 			isa = PBXGroup;
 			children = (
+				38D1B2D82B39752C00E82EB8 /* Doc */,
 				38D1B2AC2B39635C00E82EB8 /* beginner */,
 				38D1B2BD2B39635E00E82EB8 /* beginnerTests */,
 				38D1B2C72B39635E00E82EB8 /* beginnerUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D1B2D92B39752C00E82EB8 /* Doc in Resources */,
 				38D1B2B52B39635E00E82EB8 /* Preview Assets.xcassets in Resources */,
 				38D1B2B22B39635E00E82EB8 /* Assets.xcassets in Resources */,
 			);
