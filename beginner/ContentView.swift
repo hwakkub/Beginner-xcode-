@@ -12,35 +12,28 @@ struct ContentView: View {
         VStack {
             MapView()
                 .frame(height: 300)
-            
-            
-            Text("Hello, world!")
-                .font(.title)
-                .fontWeight(.heavy)
-                .foregroundColor(.green)
-            Image("background")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 150, height: 150)
-                .clipShape(Circle())
-                .overlay {
-                    Circle().stroke(Color.gray, lineWidth: 4)
+            CircleImage()
+                .offset(y:-130)
+                .padding(.bottom,-130)
+            VStack(alignment: .leading) {
+                Text("Turtle Rock")
+                    .font(.title)
+                HStack {
+                    Text("Joshua Tree National Park")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("California")
+                        .font(.subheadline)
                 }
-                .shadow(radius: 7)
-            
-            HStack {
-                Text("My name is")
-                    .font(.subheadline)
-                Spacer()
-                Text("Jirakit")
-                    .font(.subheadline)
+                Divider()
+                    Text("About Turtle Rock")
+                        .font(.title2)
+                        Text("Descriptive text goes here.")
             }
             .padding()
-
+            Spacer()
         }
-        .padding()
-    }
-}
+    }}
 
 #Preview {
     ContentView()
