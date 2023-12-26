@@ -15,6 +15,8 @@
 		38D1B2C92B39635E00E82EB8 /* beginnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1B2C82B39635E00E82EB8 /* beginnerUITests.swift */; };
 		38D1B2CB2B39635E00E82EB8 /* beginnerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1B2CA2B39635E00E82EB8 /* beginnerUITestsLaunchTests.swift */; };
 		38D1B2D92B39752C00E82EB8 /* Doc in Resources */ = {isa = PBXBuildFile; fileRef = 38D1B2D82B39752C00E82EB8 /* Doc */; };
+		38D1B2DB2B3A758400E82EB8 /* text & image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1B2DA2B3A758400E82EB8 /* text & image.swift */; };
+		38D1B2DD2B3A77BD00E82EB8 /* MapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1B2DC2B3A77BD00E82EB8 /* MapKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		38D1B2C82B39635E00E82EB8 /* beginnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beginnerUITests.swift; sourceTree = "<group>"; };
 		38D1B2CA2B39635E00E82EB8 /* beginnerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beginnerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		38D1B2D82B39752C00E82EB8 /* Doc */ = {isa = PBXFileReference; lastKnownFileType = text; path = Doc; sourceTree = "<group>"; };
+		38D1B2DA2B3A758400E82EB8 /* text & image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "text & image.swift"; sourceTree = "<group>"; };
+		38D1B2DC2B3A77BD00E82EB8 /* MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				38D1B2AF2B39635C00E82EB8 /* ContentView.swift */,
 				38D1B2B12B39635E00E82EB8 /* Assets.xcassets */,
 				38D1B2B32B39635E00E82EB8 /* Preview Content */,
+				38D1B2DA2B3A758400E82EB8 /* text & image.swift */,
+				38D1B2DC2B3A77BD00E82EB8 /* MapKit.swift */,
 			);
 			path = beginner;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				38D1B2B02B39635C00E82EB8 /* ContentView.swift in Sources */,
+				38D1B2DD2B3A77BD00E82EB8 /* MapKit.swift in Sources */,
+				38D1B2DB2B3A758400E82EB8 /* text & image.swift in Sources */,
 				38D1B2AE2B39635C00E82EB8 /* beginnerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
